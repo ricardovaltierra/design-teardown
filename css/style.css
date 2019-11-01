@@ -1,0 +1,23 @@
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+    color: #fff;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: dimgray;
+}
+
+.nav-item {
+    
+    padding: 20px;
+}
+
+.nav-item h3 {
+    font-size: 27px;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    place-self: center;
+    font-weight: 600;
+}
