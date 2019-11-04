@@ -29,7 +29,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Screenshot Image](assets/images/screenshot.png)
+![Screenshot Image](assets/img/screenshot.png)
+<br><br>
+![Screenshot Image](assets/img/screenshot_1.png)
 
 This project consists of building a heatmap of the Smashing magazine website
 

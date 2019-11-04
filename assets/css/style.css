@@ -270,10 +270,11 @@ body {
 
 .up-txt {
   position: relative;
-  padding-right: 200px;
-  font-size: 7px;
-  top: -7px;
+  width: 31%;
+  font-size: 15px;
+  top: 0px;
   background-color: #ddd;
+  line-height: 1.0;
 }
 
 .mi-txt h3 {
