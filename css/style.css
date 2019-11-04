@@ -343,7 +343,6 @@ body {
 
 footer {
   background-color: #eee;
-  height: 300px;
 }
 
 .magazine-topics {
@@ -360,6 +359,8 @@ footer {
   background-color: #888;  
   margin: auto;
   padding-bottom: 25px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .footer-links ul {
@@ -372,4 +373,37 @@ footer {
 .footer-links li {
   margin: 1.5%;
   text-align: center;
+}
+
+.footer-end {
+  display: flex;
+  width: 100%;
+}
+
+.footer-img{
+  background-color: #999;
+  width: 15%;
+  margin: 2% 8%;
+}
+
+.footer-text {
+  display: block;
+  width: 60%;
+  margin: 4%;
+}
+
+.footer-title {
+  height: 30px;
+  margin-bottom: 44px;
+  width: 100%;
+  background-color: #999;
+  text-align: center;
+}
+
+.footer-p {
+  text-align: center;
+  height: 55%;
+  width: 100%;
+  background-color: #999;
+  padding-top: 20px;
 }
