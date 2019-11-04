@@ -69,8 +69,40 @@ body {
     grid-template-rows: 150px 750px 750px;
 }
 
-.col-article-first {
+.col-article {
+    display: grid;
     background-color: #666;
     height: 34.76rem;
     margin: 65px;
 }
+
+.box-title {
+    align-self: center;
+    justify-self: center;
+    font-size: 35px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 38px;
+    line-height: 1.4;    
+}
+
+.row-article {
+    display: grid;
+    margin-top: 20px;
+    width: 100%;
+    height: 412px;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 352px;    
+    justify-content: space-around;
+    justify-items: center;
+    gap: 25px;
+  }
+
+  .mid-col {    
+    background-color: #999;
+    width: 95%;
+  }
+  
+  
