@@ -176,3 +176,76 @@ body {
 .comming-date h3 {
   text-align: center;
 }
+
+.row {
+  display: flex;
+  position: relative;
+  
+  height: 260px;
+  padding: 15px;
+  margin: 10px;
+  background-color: white;
+}
+
+.item-1 {
+  width: 29%;
+  height: 80%;
+  background-color: #444;
+  margin: 20px;
+}
+
+.item-2 {
+  width: 50%;
+  height: 80%;
+  background-color: #eee;
+  margin: 20px;
+}
+
+.grid-items {
+  display: grid;
+  position: relative;  
+  height: 100%;  
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px 200px 200px;
+  justify-content: space-around;
+  gap: 5px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: chartreuse;
+}
+
+.item {
+  display: flex;
+  margin-top: 35px;
+  background-color: aqua;
+}
+
+.item .photo {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #888;
+}
+
+.item article {
+  display: block;
+  position: relative;
+  width: 79%;
+  height: 70%;
+  background-color: black;
+}
+
+.up-txt {  
+  background-color: #ddd;
+}
+
+.mi-txt h3{
+  margin-top: 20px;
+  background-color: #999;
+}
+
+.bo-txt p{ 
+  margin-top: 20px;
+  padding-top: 20px; 
+  background-color: #ccc;
+}
