@@ -162,8 +162,8 @@ body {
 
 .comming-up-next {
   background-color: #ddd;
-  height: 400px;
   padding-top: 60px;
+  text-align: center;
 }
 
 .comming-date {
@@ -173,14 +173,46 @@ body {
   margin: 1px auto;
 }
 
-.comming-date h3 {
-  text-align: center;
+.comming-title {
+  background-color: #333;
+  width: 500px;
+  height: 40px;
+  margin: 30px auto;
+  font-size: 36px;
+  letter-spacing: 3px;
+}
+
+.comming-paragraph {
+  background-color: #888;
+  width: 700px;
+  height: 150px;
+  margin: 30px auto;
+  font-size: 27px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  padding: 10px;
+}
+
+.comming-button {
+  background-color: #333;
+  width: 500px;
+  margin: 30px auto;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 3px;
+  padding: 20px;
+}
+
+.comming-img {
+  background-color: #777;
+  height: 515px;
+  width: 700px;
+  margin: auto;
 }
 
 .row {
   display: flex;
   position: relative;
-  
   height: 260px;
   padding: 15px;
   margin: 10px;
@@ -248,4 +280,83 @@ body {
   margin-top: 20px;
   padding-top: 20px; 
   background-color: #ccc;
+}
+
+.featured-book{
+  background-color: #bbb;
+  height: 335px;
+  padding-top: 25px;
+  display: flex;
+}
+
+.featured-book-img{
+  background-color: #aaa;
+  height: 250px;
+  width: 250px;
+}
+
+.featured-book-article {
+  width: 65%;
+  padding-right: 100px;
+  padding-top: 37px;
+  padding-left: 20px;
+}
+
+.curated-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 350px;
+  margin-top: 30px;
+  justify-items: center;
+}
+
+.curated-posts article {
+  width: 80%;
+  background-color: #eee;
+}
+
+.curated-posts-title {
+  background-color: #555;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.curated-posts-p {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  background-color: #ccc;
+  margin-top: 15px;
+}
+
+footer {
+  background-color: #eee;
+  height: 300px;
+}
+
+.magazine-topics {
+  background-color: #bbb;
+  width: 300px;
+  height: 20px;
+  margin: 54px auto 33px auto;
+  position: relative;
+  top: 40px;
+}
+
+.footer-links {
+  width: 80%;
+  background-color: #888;
+  height: 170px;
+  margin: auto;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links li {
+  margin: 20px;
 }
