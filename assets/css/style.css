@@ -15,12 +15,19 @@ body {
   padding: 20px;
 }
 
-.nav-item h3 {
+.nav-item a {
   font-size: 27px;
   font-family: Verdana, Tahoma, sans-serif;
   text-align: center;
   place-self: center;
   font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+.topics-nav {
+  border: 3px solid white;
+  border-radius: 5px;
 }
 
 .first-articles {

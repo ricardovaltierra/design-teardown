@@ -3,9 +3,6 @@ linters:
     config: 'stylelint.config.js'
 files:
     ignore:        
-        - 'assets/css/reset.css' 
-        - 'LICENSE'
-        - '.gitignore'
-        - 'README.md'        
+        - 'assets/css/reset.css'       
 fixers:
     enable: true
