@@ -243,13 +243,13 @@ body {
   gap: 5px;
   padding-left: 32px;
   padding-right: 32px;
-  background-color: chartreuse;
+  background-color: white;
 }
 
 .item {
   display: flex;
   margin-top: 35px;
-  background-color: aqua;
+  background-color: #eee;
 }
 
 .item .photo {
@@ -257,6 +257,7 @@ body {
   width: 50px;
   height: 50px;
   background-color: #888;
+  margin: 30px;
 }
 
 .item article {
@@ -264,32 +265,41 @@ body {
   position: relative;
   width: 79%;
   height: 70%;
-  background-color: black;
+  background-color: #eee;
 }
 
-.up-txt {  
+.up-txt {
+  position: relative;
+  padding-right: 200px;
+  font-size: 7px;
+  top: -7px;
   background-color: #ddd;
 }
 
-.mi-txt h3{
-  margin-top: 20px;
+.mi-txt h3 {
+  margin-top: 8px;
   background-color: #999;
+  position: relative;
+  width: 75%;
+  line-height: 1.5;
 }
 
-.bo-txt p{ 
-  margin-top: 20px;
-  padding-top: 20px; 
+.bo-txt p { 
+  position: relative;
+  margin-top: 14px;
+  padding-top: 38px;
   background-color: #ccc;
+  margin-right: 10px;
 }
 
-.featured-book{
+.featured-book {
   background-color: #bbb;
   height: 335px;
   padding-top: 25px;
   display: flex;
 }
 
-.featured-book-img{
+.featured-book-img {
   background-color: #aaa;
   height: 250px;
   width: 250px;
@@ -347,16 +357,19 @@ footer {
 
 .footer-links {
   width: 80%;
-  background-color: #888;
-  height: 170px;
+  background-color: #888;  
   margin: auto;
+  padding-bottom: 25px;
 }
 
 .footer-links ul {
   display: flex;
   flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
 }
 
 .footer-links li {
-  margin: 20px;
+  margin: 1.5%;
+  text-align: center;
 }
